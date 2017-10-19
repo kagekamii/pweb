@@ -1,0 +1,189 @@
+body{
+	background-color:#E2E2E2;
+	color: #000;
+	font: x-small Arial;
+	font-size:/**/small;
+}
+h3 {
+	color: #03C;
+	font-size:14px;
+	}
+h2 {
+	font:x-small Arial;
+	font-size:/**/small;
+	color:#000000;
+	}
+h1 {
+	font-size:12px;
+	color:#000;
+	}
+h5 {
+	color:#39F;
+	font:Verdana;
+	font-size:16px;
+	}
+h6 {
+	align:center;
+	color:#39F;
+	font:Verdana;
+	font-size:16px;
+	}
+	
+a {
+	color:#5c90cd;
+	text-decoration:none;
+}
+a:hover{
+	color:#777;
+	text-decoration:none;
+}
+p {
+	font-size:15px;
+	text-align: left;
+	color: #000;
+	font-family: Arial;
+	
+}
+
+.menubar {
+	alignment-adjust:central;
+	background: #fff;
+	box-shadow: 0px 0px 7px #666666;
+	}			
+		.menu{
+	width: 980px;
+	list-style: none;
+	font: 12px Oswald,Arial,Verdana;
+	text-align: left;
+	height: 35px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+			
+			}
+		.menu a{
+			float:left;
+			color:#777;
+			text-decoration:none;
+			width:100px;
+			line-height:33px;
+			
+			}
+		.menu a:hover,li.menuhover a{
+			color:#111;
+			background:#F4F4F4;
+		
+			}
+		.menu li,.menu li span{
+			position:relative;
+			float:left;
+			width:100px;
+			z-index:2;
+			border-left:1px solid #e3e3e3;
+			}
+		.menu li span{
+			border-right:1px solid #e3e3e3;
+			border-left:none;
+			}
+		.menu ul{
+			display:none;
+			position:absolute;
+			font:normal 11px Oswald,Arial,Verdana;
+			top:36px;
+			left:0;
+			background:#fbfbfb;
+			box-shadow:0 2px 3px #ccc;
+			}
+		.menu ul li{
+			float:none;
+			border-top:1px solid #ccc;
+			width:150px;
+			}
+		.menu ul li a{
+			float:none;
+			display:block;
+			background:none;
+			line-height:36px;
+			width:137px;
+			text-align:left;
+			padding-left:10px;
+			color:#444;
+			}
+		.menu ul li a:hover{
+			background:#fefefe;
+			color:#777;
+			border-left:3px solid #000;
+			}
+
+.bagian1{
+	background: #FFF;
+	border-radius: 3px;
+	box-shadow:
+ 	inset 2px 0 2px -2px #000000,
+    inset -2px 0 2px -2px #000000;
+	padding-left:15px;
+	padding-right:15px;
+	}
+.bagian2{
+	background:#09F;
+	border-radius: 3px;
+	color: #FFF;
+	font-weight: bold;
+	border-color:#000;
+	}
+.bagian3{
+	background:#fff;
+	border-radius:3px;
+
+	box-shadow:0px 0px 2px #000;
+	}
+.bagian4{
+	background:#FFF;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px #000;
+	width: 1200;
+	color: #000;
+	}
+.isi {
+	width:750px;
+	float:left;
+	background-color:transparent;
+	}
+.sidebar {
+	width:200;
+	float:left;
+	}
+.gambar {
+	background-color:#FF0;
+	box-shadow:0px 0px 7px #00FFFF;
+	}
+.KMIN {
+	float:left;
+	}
+.foto{
+	width:200px;
+	height:270px;
+	padding:3px;
+	box-shadow:0px 0px 2px #000000;
+	background-color:fff;
+	
+}
+.temanku{
+	background-color:#FFFFCC;
+	box-shadow:0px 0px 2px #000000;
+}
+.anime{
+	width:400px;
+	height:auto;
+	padding:2px;
+	border:1px solid #000000;
+	box-shadow:0px 1px 10px #fff;
+	}
+.anime2{
+	width:200px;
+	height:300px;
+	padding:2px;
+	border:1px solid #000000;
+	box-shadow:0px 1px 10px #fff;
+	}
